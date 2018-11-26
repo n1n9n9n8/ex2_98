@@ -2,10 +2,10 @@
 // Created by noamc on 24/11/2018.
 //
 
+#include <iostream>
 #include "DataTables.h"
 
 DataTables::DataTables() : lastID("0") {
-
 }
 
 
@@ -35,32 +35,32 @@ MyID DataTables::createID() {
 }
 
 
-void DataTables::addEmployee(MyEmployee *employee) {
-    MyID id = employee->getID();
-    (*this->getEmployees())[id] = employee;
-
-}
-
-void DataTables::addPlane(MyPlane *plane) {
-    MyID id = plane->getID();
-    (*this->getPlanes())[id] = plane;
-}
-
-void DataTables::addFlight(MyFlight *flight) {
-    MyID id = flight->getID();
-    (*this->getFlights())[id] = flight;
-}
-
-void DataTables::addCustomer(MyCustomer *customer) {
-    MyID id = customer->getID();
-    (*this->getFlights())[id] = customer;
-}
-
-void DataTables::addReservation(MyReservation *reservation) {
-    MyID id = customer->getID();
-    (*this->getFlights())[id] = customer;
-}
-
+//void DataTables::addEmployee(MyEmployee *employee) {
+//    MyID id = employee->getID();
+//    (*this->getEmployees())[id] = employee;
+//
+//}
+//
+//void DataTables::addPlane(MyPlane *plane) {
+//    MyID id = plane->getID();
+//    (*this->getPlanes())[id] = plane;
+//}
+//
+//void DataTables::addFlight(MyFlight *flight) {
+//    MyID id = flight->getID();
+//    (*this->getFlights())[id] = flight;
+//}
+//
+//void DataTables::addCustomer(MyCustomer *customer) {
+//    MyID id = customer->getID();
+//    (*this->getCustomers())[id] = customer;
+//}
+//
+//void DataTables::addReservation(MyReservation *reservation) {
+//    MyID id = reservation->getID();
+//    (*this->getReservations())[id] = reservation;
+//}
+//
 
 int DataTables::stringToInt(string s) {
     int index = 0;

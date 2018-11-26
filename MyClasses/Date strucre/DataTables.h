@@ -35,20 +35,20 @@ public:
     MyCustomer *getCustomer(MyID id);
 
     MyReservation *getReservation(MyID id);
-
-    //add functions
-
-    void addEmployee(MyEmployee *employee);
-
-    void addPlane(MyPlane *plane);
-
-    void addFlight(MyFlight *flight);
-
-    void addCustomer(MyCustomer *customer);
-
-    void addReservation(MyReservation *reservation);
-
-
+//
+//    //add functions
+//
+//    void addEmployee(MyEmployee *employee);
+//
+//    void addPlane(MyPlane *plane);
+//
+//    void addFlight(MyFlight *flight);
+//
+//    void addCustomer(MyCustomer *customer);
+//
+//    void addReservation(MyReservation *reservation);
+//
+//
     // ID
 
     MyID createID();
